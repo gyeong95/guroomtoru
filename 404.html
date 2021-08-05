@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="main_style.css">
+    <title>LEE SEO GYEONG</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="../img/logo_F-1.png" alt="LOGO"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">예약확인</a></li>
+                <li><a href="event.html">이벤트</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <!-- fade css -->
+        <div class="myslide fade">
+            <img src="../img/B_1.jpg" alt="banner1">
+        </div>
+        <div class="myslide fade">
+            <img src="../img/B_2.jpg" alt="banner2">
+        </div>
+        <div class="myslide fade">
+            <img src="../img/B_3.jpg" alt="banner3">
+        </div>
+        <div class="myslide fade">
+            <img src="../img/B_4.jpg" alt="banner4">
+        </div>
+        <div class="myslide fade">
+            <img src="../img/B_5.jpg" alt="banner5">
+        </div>
+        <!-- /fade css -->
+
+        <!-- onclick js -->
+        <!--
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+-->
+
+        <div class="dotsbox" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+        <!-- /onclick js -->
+        <!-- /onclick js -->
+    </div>
+
+        <div class="menu">
+        <ul>
+            <li><a href="#">해외여행 <i class="fas fa-sort-down" onclick=""></i></a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">아시아</a></li>
+                        <li><a href="#">미국</a></li>
+                        <li><a href="#">유럽</a></li>
+                        <li><a href="#">아프리카</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">국내여행 <i class="fas fa-sort-down"></i></a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">서울</a></li>
+                        <li><a href="#">강원</a></li>
+                        <li><a href="#">전라</a></li>
+                        <li><a href="#">경상</a></li>
+                        <li><a href="#">제주</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">항공<i class="fas fa-sort-down" onclick=""></i></a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">국내항공</a></li>
+                        <li><a href="#">해외항공</a></li>
+                        <li><a href="#">특가항공</a></li>
+                    </ul>
+                </div></li>
+            <li><a href="#">숙박<i class="fas fa-sort-down" onclick=""></i></a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">국내호텔</a></li>
+                        <li><a href="#">해외호텔</a></li>
+                        <li><a href="#">펜션</a></li>
+                        <li><a href="#">리조트</a></li>
+                        <li><a href="#">게스트하우스</a></li>
+                    </ul>
+                </div></li>
+            <li><a href="#">투어/입장권<i class="fas fa-sort-down" onclick=""></i></a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">현지투어</a></li>
+                        <li><a href="#">테마파크</a></li>
+                        <li><a href="#">패스</a></li>
+                    </ul>
+                </div></li>
+            <li><a href="#">차량렌트<i class="fas fa-sort-down" onclick=""></i></a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">소형차</a></li>
+                        <li><a href="#">중형차</a></li>
+                        <li><a href="#">대형차</a></li>
+                    </ul>
+                </div></li>
+            <li><a href="#">특가<i class="fas fa-sort-down" onclick=""></i></a>
+                <div class="sub-menu">
+                    <ul>
+                            <li><a href="event.html">이벤트</a></li>
+                        <li><a href=promotion.html>인기여행지</a></li>
+                        <li><a href="#">추천여행지</a></li>
+                    </ul>
+                </div></li>
+        </ul>
+    </div>
+    
+    <div class="content fav">
+        <h3 class="title">인기 여행지</h3>
+        <div class="content_wrap">
+            <div class="content_box">
+                <div class="content_img">
+                    <img src="../img/Artboard%201.png" alt="">
+                    <!--                    <img src="https://via.placeholder.com/200" alt="샘플이미지150">-->
+                </div>
+                <div class="content_inner">
+                    <p>여행지</p>
+                    <i class="far fa-heart"></i>
+                    <div class="price">180,000 ~</div>
+
+                </div>
+            </div>
+            <div class="content_box">
+                <div class="content_img">
+                    <img src="../img/Artboard%202.png" alt="">
+                    <!--                    <img src="https://via.placeholder.com/200" alt="샘플이미지150">-->
+                </div>
+                <div class="content_inner">
+                    <p>여행지</p>
+                    <i class="fas fa-heart"></i>
+                    <div class="price">450,000 ~</div>
+                </div>
+            </div>
+            <div class="content_box">
+                <div class="content_img">
+                    <img src="../img/Artboard%203.png" alt="">
+                    <!--                    <img src="https://via.placeholder.com/200" alt="샘플이미지150">-->
+                </div>
+                <div class="content_inner">
+                    <p>여행지</p>
+                    <i class="fas fa-heart"></i>
+                    <div class="price">270,000 ~</div>
+
+                </div>
+            </div>
+            <div class="content_box">
+                <div class="content_img">
+                    <img src="../img/Artboard%204.png" alt="">
+                    <!--                    <img src="https://via.placeholder.com/200" alt="샘플이미지150">-->
+                </div>
+                <div class="content_inner">
+                    <p>여행지</p>
+                    <i class="fas fa-heart"></i>
+                    <div class="price">300,000 ~</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content sale">
+        <h3 class="title">선착순 특가</h3>
+        <div class="sale_wrap">
+            <div class="sale_img">
+                <img src="../img/SALE(1800x500).jpg" alt="">
+                <!--                <img src="https://via.placeholder.com/1800x500?text=SALE IMG" alt="">-->
+            </div>
+            <div class="sale_inner">
+                <h3>작년 인기 여행지, <br> 특가로 돌아오다.</h3>
+                <input type="button" class="btn" value="특가로 여행가기" onclick="location.href='promotion.html'">
+            </div>
+        </div>
+    </div>
+    <div class="content keyword">
+        <h3 class="title">키워드 테마 여행</h3>
+        <div class="content_wrap">
+            <div class="contentBox">
+                <h4 class="keyword_title">#키워드 입력</h4>
+                <div class="content_box">
+                    <div class="content_img">
+                        <img src="../img/Artboard%205.png" alt="">
+                        <!--                        <img src="https://via.placeholder.com/200" alt="샘플이미지150">-->
+                    </div>
+                    <div class="content_inner">
+                        <p>여행지테마</p>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="contentBox">
+                <h4 class="keyword_title">#키워드 입력</h4>
+                <div class="content_box">
+                    <div class="content_img">
+                        <img src="../img/Artboard%206.png" alt="">
+
+                        <!--                        <img src="https://via.placeholder.com/200" alt="샘플이미지150">-->
+                    </div>
+                    <div class="content_inner">
+                        <p>여행지테마</p>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="contentBox">
+                <h4 class="keyword_title">#키워드 입력</h4>
+                <div class="content_box">
+                    <div class="content_img">
+                        <img src="../img/Artboard%207.png" alt="">
+
+                        <!--                        <img src="https://via.placeholder.com/200" alt="샘플이미지150">-->
+                    </div>
+                    <div class="content_inner">
+                        <p>여행지테마</p>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="contentBox">
+                <h4 class="keyword_title">#키워드 입력</h4>
+                <div class="content_box">
+                    <div class="content_img">
+                        <img src="../img/Artboard%208.jpg" alt="">
+
+                        <!--                        <img src="https://via.placeholder.com/200" alt="샘플이미지150">-->
+                    </div>
+                    <div class="content_inner">
+                        <p>여행지테마</p>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="button" value="Night" id="day_night">
+    <footer>
+        <div class="box-container">
+            <div class="box">
+                <h3>상담문의</h3>
+                <p class="tel">1544-1544</p>
+            </div>
+            <div class="box">
+                <h3>메뉴</h3>
+                <a href="login.html">로그인</a>
+                <a href="#">회원가입</a>
+                <a href="#">예약확인</a>
+                <a href="event.html">이벤트</a>
+            </div>
+            <div class="box">
+                <h3>바로가기</h3>
+                <a href="#">해외여행</a>
+                <a href="#">국내여행</a>
+                <a href="#">항공</a>
+                <a href="#">숙박</a>
+                <a href="#">투어/입장권</a>
+                <a href="#">차량렌트</a>
+                <a href="promotion.html">특가</a>
+
+            </div>
+            <div class="box">
+                <h3>SNS바로가기</h3>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-facebook-square"></i> facebook</a>
+                <a href="#"><i class="fab fa-instagram-square"></i> youtube</a>
+
+            </div>
+        </div>
+        <h3 class="credit"> created by <span> LEE SEO GYEONG </span> | all rights reserved! </h3>
+    </footer>
+    <script src="../js/jsfile.js"></script>
+</body></html>
